@@ -1,0 +1,98 @@
+// 主轴
+$flex-jc: (
+  'start': flex-start,
+  'end': flex-end,
+  'center': center,
+  'between': space-between,
+  'around': space-around,
+);
+
+// 侧轴
+
+$flex-ai: (
+  'start': flex-start,
+  'end': flex-end,
+  'center': center,
+  'stretch': stretch,
+);
+
+// 字体大小
+$sizes: (
+  s: 10rpx,
+  ssm: 16rpx,
+  sm: 20rpx,
+  //10rpx
+    sm-1: 22rpx,
+  //11rpx
+    md: 24rpx,
+  //12rpx
+    md-s: 26rpx,
+  //13rpx
+    md-l: 28rpx,
+  //14rpx
+    lg: 30rpx,
+  //15rpx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+);
+// 元素宽度
+$distance: (
+  w: width,
+  h: height,
+);
+$distance-sizes: (
+  10: 10%,
+  15: 15%,
+  20: 20%,
+  30: 30%,
+  40: 40%,
+  50: 50%,
+  60: 60%,
+  70: 70%,
+  80: 80%,
+  90: 90%,
+  100: 100%,
+  25: 25%,
+  35: 35%,
+  45: 45%,
+  48: 48%,
+  55: 55%,
+  65: 65%,
+  75: 75%,
+);
+// 文字颜色 背景颜色
+$colors: (
+  'primary-color': #ff7752,
+  'primary-color-light': #ffc6b6,
+  'white': #fff,
+  'white-2': #eceef0,
+  'deepWhite': rgb(249, 249, 249),
+  'grey': #999,
+  'deep-grey': #666,
+  'c-444': #444,
+  'c-666': rgb(105, 109, 112),
+  'text_title_color': #9ea4aa,
+  'dark-1': #343440,
+  'dark': #222,
+  'black': #000,
+);
+
+// pangding margin 间距
+$spacing-types: (
+  m: margin,
+  p: padding,
+);
+$spacing-directions: (
+  t: top,
+  r: right,
+  b: bottom,
+  l: left,
+);
+$spacing-sizes: (
+  0: 0rpx,
+  1: 10rpx,
+  2: 20rpx,
+  3: 30rpx,
+  4: 40rpx,
+  5: 50rpx,
+);
+
+$primary-color: map-get($colors, 'primary-color');

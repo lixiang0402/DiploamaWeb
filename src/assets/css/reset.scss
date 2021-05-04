@@ -1,0 +1,21 @@
+uni-swiper .uni-swiper-dot-active {
+  width: 20rpx !important;
+
+  background-color: #fff !important;
+}
+.uni-swiper-wrapper {
+  .uni-swiper-dots {
+    // 指示点整个区域
+    // bottom: 100rpx;
+  }
+  .uni-swiper-dot {
+    // 指示点元素默认样式
+    width: 10rpx !important;
+    height: 10rpx !important;
+    // border: 1rpx solid #E0B079;
+  }
+  .uni-swiper-dot-active {
+    // 指示点元素激活（当前选中）状态样式
+    // background: #CD9763;
+  }
+}

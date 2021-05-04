@@ -1,0 +1,70 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/classify/index",
+      "style": {
+        "navigationBarTitleText": "分类"
+      }
+    },
+    {
+      "path": "pages/shopcar/index",
+      "style": {
+        "navigationBarTitleText": "购物车"
+      }
+    },
+    {
+      "path": "pages/own/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "PaintShop",
+    "navigationBarBackgroundColor": "#ff7752",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#ff7752",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/homeL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classify/index",
+        "iconPath": "static/icons/classify.png",
+        "selectedIconPath": "static/icons/classifyL.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/shopcar/index",
+        "iconPath": "static/icons/shopcar.png",
+        "selectedIconPath": "static/icons/shopcarL.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/own/index",
+        "iconPath": "static/icons/own.png",
+        "selectedIconPath": "static/icons/ownL.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
